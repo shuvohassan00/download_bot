@@ -128,7 +128,7 @@ class DownloadCancelledException(Exception):
 # ⚙️ BOT CONFIGURATION
 # ════════════════════════════════════════════════════════════════════════════
 
-BOT_TOKEN: str = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8357894547:AAHfzKXDPbWdlpeAIloCMsAKbvMzOpfzp2Q").strip()
 ADMIN_ID: int = int(os.getenv("ADMIN_ID", "7857957075"))
 BOT_USERNAME: str = os.getenv("BOT_USERNAME", "@gadgetmedia_bot").strip()
 BUILD_VERSION: str = "10.3 NEON DELUXE"
